@@ -1,0 +1,4 @@
+- Be specific about the behaviour you want. "Win the ball back quickly in the opponent's half" is more actionable than "press more."
+- Specify scope when relevant. Instructions like "defenders hold position" or "forwards push higher" help agents understand who the instruction applies to, reducing ambiguity.
+- Avoid conflicting directives in a single message. If you need to communicate a complex tactical shift, consider breaking it into sequential instructions rather than combining them.
+- Use the session context to your advantage. Because agents can retain conversation history for the match (if implemented to do so), you can refer back to established patterns — for example, "revert to the shape we had earlier" — rather than re-explaining everything from scratch.
